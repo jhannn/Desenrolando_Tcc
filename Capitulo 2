@@ -1,0 +1,45 @@
+2.Fundamentação teórica
+
+Neste capítulo, iremos retratar alguns conceitos e tecnologias, usados nos capítulos seguintes.  
+
+2.1 Plataforma de Serviço
+
+A Plataforma de Serviços é um grupo de tecnologias de nuvem, cada uma fornecendo um conjunto específico de serviços para desenvolvedores de aplicativos. Dentre estas tecnologias, o Microsoft Azure fornece serviços como: plataforma de infraestrutura distribuída para aplicações de serviços locais e baseados em nuvem, ambiente baseado no Windows para executar aplicativos e armazenar dados em servidores em datacenters da Microsoft, entre outros. Para mais informações sobre Microsoft Azure, acesse:  https://azure.microsoft.com. 
+O fator essencial para a utilização do Microsoft Azure como plataforma, foi pelo fato da empresa Linkest ter o acesso a uma chave premium com funcionalidades que era buscado pela equipe, como o de armazenar grande conjunto de dados sem gasto adicional e de permitir a utilização da tecnologia Docker.
+
+2.2 Plataforma de Desenvolvimento 
+
+O Heroku foi a plataforma de desenvolvimento baseado em nuvem utilizada no desenvolvimento deste trabalho. O Heroku possui características de  Application development e de application-delivery, que é o mecanismo essencial para entregar a funcionalidade do aplicativo de maneira rápida e eficiente aos usuários. Além, dessas características, o Heroku suporta aplicações em diversas linguagens, como: Node.js, Ruby, Python, PHP e entre outras. A plataforma fornece serviços de servidor, administração de sistema e de manutenção para as aplicações. Existe documentação completa das funcionalidades do Heroku no site do produto.
+O sistema Linkest Web usava o Heroku, porém como teve a necessidade de migrar do modelo B2C para o modelo B2B, era necessário uma plataforma que gerisse uma grande quantidade de dados sem adição de custo para o projeto. Para o Heroku permitir essa função era necessário adquirir um pacote pago. A empresa Linkest tinha um conta premium da plataforma Microsoft Azure, que fornece o serviço procurado, sendo assim um fator importante para a migração da plataforma Heroku para a plataforma Azure.
+
+2.3 Linguagem de Script 
+
+	No desenvolvimento da aplicação Linkest em sua versão Web foi utilizado o PHP, que é uma linguagem de script open source projetada especificamente para web. PHP pode ser usada dentro de uma página HTML (HyperText Markup Language), seu código é executado no servidor e por fim gera um HTML que é enviado para o navegador. A linguagem é bem simples e fornece recursos avançados. Toda informação necessária sobre PHP pode ser facilmente encontrada, o que se torna um importante diferencial da linguagem. 
+O Linkest Web utiliza como linguagem principal PHP, pelo fato de ser uma linguagem especializado para web. Para agilizar o desenvolvimento da aplicação Web, foi utilizado o CakePHP um framework para a linguagem PHP, que contém dezenas de funções e métodos que simplificam o desenvolvimento web. 
+	Contudo, a transformação para o modelo B2B trouxe a  necessidade de desacoplar o Front-End do Back-End, para se obter uma maior autonomia para ambas as partes. E, tendo em vista de expandir os horizontes do sistema era necessário mudar para uma linguagem que não ficasse limitada a web. 
+
+2.4 Python
+
+	 Python é uma linguagem popular de programação aberta usada para programas autônomos e aplicativos de script em uma ampla variedade de domínios. Ela é uma poderosa linguagem multiparadigmática, otimizada para produtividade de programadores, de fácil leitura de código, grátis, portátil e relativamente fácil. Mais sobre Python: https://www.python.org. 
+	No Linkest em modelo B2B, foi necessário uma nova linguagem para sua implementação, a linguagem escolhida foi Python. Pelo fato, de ter um aprendizado facilitado, uma comunidade ativa e ser umas das linguagens mais usadas em criações de APIs.
+	
+Eve-Python
+
+Eve é um framework para Python REST API de código aberto. Ele permite criar e implantar facilmente serviços Web RESTful altamente personalizáveis e com todos os recursos. O Eve é desenvolvido pela Flask e pela Cerberus e oferece suporte nativo para armazenamentos de dados do MongoDB. O suporte para backends SQL, Elasticsearch e Neo4js é fornecido por extensões da comunidade. para saber mais: http://docs.python-eve.org. 
+O Eve foi escolhido pela equipe do Linkest, pelo fato de ser muito fácil o aprendizado, ser uma framework muito simples e personalizável.
+
+Docker
+
+	“Docker é uma plataforma que automatiza a implantação de aplicações dentro de ambientes isolados denominados containers. Trata-se, portanto, de uma solução para  desenvolvedores e administradores de sistema desenvolverem, embarcarem, integrarem e executarem aplicações rapidamente. Seu principal objetivo é proporcionar múltiplos ambientes isolados dentro do mesmo servidor, mas acessíveis externamente via tradução de  portas.”, disponível em: http://www.ixwticifes.ufba.br/modulos/submissao/Upload-275/66257.pdf. Ou seja, Docker é uma ferramenta ágil, padronizada e altamente parametrizada de ambientes  para desenvolvimento, teste e homologação, tendo uma maior autonomia e replicabilidade para o desenvolvedor. Para saber mais de Docker acesse: https://www.docker.com.
+
+Arquitetura de três camadas
+
+A Arquitetura de três camadas é uma arquitetura de software, em que o sistema é dividido em três camada, como o nome sugere. Uma camada é responsável pela apresentação do sistema, outra camada fica responsável pela lógica de negócio do sistema e a última camada fica responsável pelo domínio de dados.  Essa arquitetura é muito usada para sistema de modelo cliente-servidor com a utilização de orientação de objetos, ou seja, simplificando a interface com o usuário e colocando na camada de negocio, todo o código funcional do sistema utilizando a orientação de objetos.
+
+Chatbot (Pesquisando)
+
+
+
+API (Pesquisando)
+
+
