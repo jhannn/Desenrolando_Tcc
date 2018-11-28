@@ -1,0 +1,29 @@
+Introdução
+
+O presente trabalho está diretamente relacionado ao conceito de startup, que é um modo de pensar e construir produtos e serviços que possam ser sustentáveis no mercado[1]. A startup que serviu de base para este trabalho é o Linkest, cuja principal entrega é ser um gerenciador de links. A aplicação Linkest surgiu como projeto acadêmico de PDS (Projeto de Desenvolvimento de Software), disciplina do curso de TADS (Tecnologia de Análise e Desenvolvimento de Sistemas) do IFRN. Posteriormente, Linkest evoluiu para um negócio que foi incubado por dois anos na incubadora ITNC do IFRN. Desde abril de 2017, Linkest encontra-se em processo de aceleração na ACE, em São Paulo. 
+Quando Linkest foi concebido, o modelo de negócio utilizado foi voltado ao consumidor, também chamado B2C, do inglês Business to Consumer. O modelo de negócio B2C é o comércio eletrônico efetuado diretamente entre a empresa produtora ou prestadora de serviços e o consumidor final. Em geral o consumidor adquire os produtos a preços mais competitivos pois evita o “atravessador”. Esse mercado é composto por todos os consumidores que adquirem bens e serviços para uso próprio e final, isto é, não ganham dinheiro com o que adquiriram [2]. 
+No decorrer do tempo, Linkest foi amadurecendo e evoluindo, tendo a necessidade de mudar do modelo B2C para o modelo de negócio Business to Business para que o empreendimento pudesse atender as diferentes necessidades do mercado. O modelo Business to Business (B2B) é um modelo em que um empresa fornece produtos a outras empresas e ao cliente final também. Sendo assim, o B2B é um modelo de comércio geralmente praticado por fornecedores e clientes empresariais [2]. O modelo B2B no âmbito computacional é o fornecimento de serviços e sistemas que podem ser usados pelo cliente final e por outras empresas, que utilizam destes serviços para incrementar os seus produtos para com os seus clientes.
+A principal motivação para realização deste trabalho está em explicitar as tecnologias e a forma de implementação utilizadas no processo evolutivo de um software inicialmente com o modelo de negócio B2C e sua evolução para um modelo de negócio B2B. 	
+
+1.1 OBJETIVOS
+O objetivo geral deste trabalho é descrever o processo evolutivo do modelo B2C para o modelo B2B da aplicação Linkest.
+Objetivos Específicos:
+Estudar a implementação do modelo B2C e sua Arquitetura definida;
+Definir a arquitetura B2B;
+Estudar tecnologias para a implementação da nova arquitetura;
+Implementar nova arquitetura;
+Validar a arquitetura B2B;
+Implantar em versão de produção;
+Documentar
+
+1.2 DIVISÃO DO DOCUMENTO
+
+Neste documento, além desta introdução, é dedicado um capítulo para discutir as abordagens e o referencial teórico que serviu de base a este trabalho. O capítulo 3, relata em ordem cronológica as fases e as técnicas aplicadas durante o desenvolvimento. Análises e resultados obtidos são apresentados e discutidos em capítulo 4 e por fim, conclusões e trabalhos futuros são apresentados na capítulo 5.
+
+
+Links: 
+[A Startup Enxuta][1]
+https://books.google.com.br/books?hl=pt-BR&lr=lang_pt&id=vLiUj1h5fhkC&oi=fnd&pg=PT5&dq=startup&ots=vGR3ZAkPIA&sig=uIMyyi0za_Z1mFXf2l2mPk69mmc#v=onepage&q=startup&f=false
+[As perspectivas do Comércio Eletrônico no Brasil e no mundo][2]
+http://www.fatea.br/seer/index.php/janus/article/view/34/37
+
